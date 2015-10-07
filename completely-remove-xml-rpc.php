@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Disable XML-RPC
+Plugin Name: Completely Disable XML-RPC
 Plugin URI: http://www.freethepepper.com/wordpressplugins
 Description: This plugin disables XML-RPC API and traces in http HEADER, meta, rel,and URImeta in WordPress 4.3+, which is by default enabled.
 Version: 1.0.0
