@@ -1,4 +1,5 @@
-=== Plugin Name ===
+**=== Plugin Name ===**
+
 Contributors: Kwaadpepper
 Tags: xmlrpc
 Requires at least: 3.5
@@ -9,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin disables XML-RPC API and traces in http HEADER, meta, rel,and URImeta in WordPress 3.5+, which is by default enabled.
 
-== Description ==
+**== Description ==**
 
 This plugin completely disable the XML-RPC API on a WordPress site running 3.5 and beyond.
 It also remove any traces of this on pages and HTTP headers.
@@ -18,7 +19,7 @@ From 3.5, XML-RPC is enabled by default.
 The option to disable it was also removed, this plugin provides and easy way to
 disable it once for all.
 
-== Installation ==
+**== Installation ==**
 
 1. Upload completely disable-xml-rpc directory to the `/wp-content/plugins/` directory in your WordPress installation
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -26,13 +27,13 @@ disable it once for all.
 
 To re-enable XML-RPC, just deactivate the plugin through the 'Plugins' menu.
 
-== Frequently Asked Questions ==
+**== Frequently Asked Questions ==**
 
-= Is there an admin interface for this plugin? =
+**= Is there an admin interface for this plugin? =**
 
 There is no need as if you wan't to renable XMP-RPC, you just have to disable the plugin.
 
-= How to check this is working ? =
+**= How to check this is working ? =**
 
 You can use :
 HTTP HEADERS : curl -I yourwebsiteadresse
@@ -45,14 +46,14 @@ be default it should be https://yourwebsite/xmlrpc.php
 
 The use the plugin to test it.
 
-== Screenshots ==
+**== Screenshots ==**
 
-== Changelog ==
+**== Changelog ==**
 
-= 1.0 =
+**= 1.0 =**
 * Initial release
 
-== Upgrade Notice ==
+**== Upgrade Notice ==**
 
-= 1.0 =
+**= 1.0 =**
 * Initial release
